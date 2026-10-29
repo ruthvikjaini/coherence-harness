@@ -1,0 +1,1 @@
+{"aliases":{"total_cost":"cost"},"intents":[{"amount":60,"budget":"calls","key":"work","kind":"spend","unit":"calls"},{"key":"total_cost","kind":"set","value":42.5}],"scope":"team-budget","worker_id":"worker-0"}

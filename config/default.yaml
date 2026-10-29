@@ -1,0 +1,36 @@
+# Default harness configuration. FX rates are fixed illustrative
+# values, not live market rates. Replace them before any real-money use.
+budgets:
+  calls:
+    cap: 100
+    unit: calls
+  money:
+    cap: 1000
+    unit: USD
+
+fx_rates:
+  USD: 1.0
+  CAD: 0.73
+  EUR: 1.08
+  GBP: 1.27
+
+aliases:
+  total_cost: cost
+  cost_total: cost
+  amount_due: cost
+  length_cm: length
+  length_m: length
+
+effort_levels:
+  - name: low
+    cost_multiplier: 1.0
+  - name: medium
+    cost_multiplier: 3.0
+  - name: high
+    cost_multiplier: 9.0
+  - name: xhigh
+    cost_multiplier: 21.0
+  - name: max
+    cost_multiplier: 42.0
+
+commit_mode: enforce

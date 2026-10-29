@@ -1,0 +1,102 @@
+{
+  "escalation_seed_0": {
+    "cost_ratio_max_to_low": 42.0,
+    "escalate": {
+      "cost_per_success": 11.095,
+      "mean_attempts": 2.06,
+      "mean_cost_per_task": 11.095,
+      "success_rate": 1.0,
+      "successes": 200,
+      "tasks": 200,
+      "total_cost": 2219.0
+    },
+    "fixed_low": {
+      "cost_per_success": 2.3255813953488373,
+      "mean_attempts": 1.0,
+      "mean_cost_per_task": 1.0,
+      "success_rate": 0.43,
+      "successes": 86,
+      "tasks": 200,
+      "total_cost": 200.0
+    },
+    "fixed_max": {
+      "cost_per_success": 55.26315789473684,
+      "mean_attempts": 1.0,
+      "mean_cost_per_task": 42.0,
+      "success_rate": 0.76,
+      "successes": 152,
+      "tasks": 200,
+      "total_cost": 8400.0
+    },
+    "oracle": {
+      "cost_per_success": 6.955,
+      "mean_attempts": 1.0,
+      "mean_cost_per_task": 6.955,
+      "success_rate": 1.0,
+      "successes": 200,
+      "tasks": 200,
+      "total_cost": 1391.0
+    },
+    "seed": 0
+  },
+  "escalation_seed_42": {
+    "cost_ratio_max_to_low": 42.0,
+    "escalate": {
+      "cost_per_success": 12.415,
+      "mean_attempts": 2.11,
+      "mean_cost_per_task": 12.415,
+      "success_rate": 1.0,
+      "successes": 200,
+      "tasks": 200,
+      "total_cost": 2483.0
+    },
+    "fixed_low": {
+      "cost_per_success": 2.3529411764705883,
+      "mean_attempts": 1.0,
+      "mean_cost_per_task": 1.0,
+      "success_rate": 0.425,
+      "successes": 85,
+      "tasks": 200,
+      "total_cost": 200.0
+    },
+    "fixed_max": {
+      "cost_per_success": 50.29940119760479,
+      "mean_attempts": 1.0,
+      "mean_cost_per_task": 42.0,
+      "success_rate": 0.835,
+      "successes": 167,
+      "tasks": 200,
+      "total_cost": 8400.0
+    },
+    "oracle": {
+      "cost_per_success": 7.655,
+      "mean_attempts": 1.0,
+      "mean_cost_per_task": 7.655,
+      "success_rate": 1.0,
+      "successes": 200,
+      "tasks": 200,
+      "total_cost": 1531.0
+    },
+    "seed": 42
+  },
+  "revision_hidden_mean_accuracy": 0.35833333333333334,
+  "revision_n_per_run": 40,
+  "revision_runs_per_setting": 3,
+  "revision_visible_mean_accuracy": 1.0,
+  "runtime_seconds": 0.008,
+  "silent_revert_mean_harness_score": 1.0,
+  "silent_revert_mean_stale_checker_score": 0.0,
+  "team_bench_mean_total_spent": {
+    "blind": 150.0,
+    "enforce": 90.0,
+    "visible": 150.0
+  },
+  "team_bench_runs_per_mode": 5,
+  "team_bench_violating_runs": {
+    "blind": 5,
+    "enforce": 0,
+    "visible": 5
+  },
+  "unit_overlap_agreeing_disagreements": 0,
+  "unit_overlap_disagreeing_disagreements": 5
+}

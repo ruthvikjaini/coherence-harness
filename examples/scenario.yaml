@@ -1,0 +1,12 @@
+# Example scenario run: five workers, shared cap of 100 calls.
+scenario: team-bench
+seed: 0
+mode: enforce
+workers: 5
+cap: 100
+unit: calls
+each_spend: 30
+expected:
+  accepted: 3
+  total_spent: 90
+  over_cap: false

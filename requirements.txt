@@ -1,0 +1,4 @@
+# The library itself has no runtime dependencies (Python standard library only).
+# The lines below are for the test and experiment tooling only.
+pytest>=8
+pyyaml>=6

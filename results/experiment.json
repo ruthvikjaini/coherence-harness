@@ -1,0 +1,389 @@
+{
+  "escalation": {
+    "seed_0": {
+      "cost_ratio_max_to_low": 42.0,
+      "escalate": {
+        "cost_per_success": 11.095,
+        "mean_attempts": 2.06,
+        "mean_cost_per_task": 11.095,
+        "success_rate": 1.0,
+        "successes": 200,
+        "tasks": 200,
+        "total_cost": 2219.0
+      },
+      "fixed_low": {
+        "cost_per_success": 2.3255813953488373,
+        "mean_attempts": 1.0,
+        "mean_cost_per_task": 1.0,
+        "success_rate": 0.43,
+        "successes": 86,
+        "tasks": 200,
+        "total_cost": 200.0
+      },
+      "fixed_max": {
+        "cost_per_success": 55.26315789473684,
+        "mean_attempts": 1.0,
+        "mean_cost_per_task": 42.0,
+        "success_rate": 0.76,
+        "successes": 152,
+        "tasks": 200,
+        "total_cost": 8400.0
+      },
+      "oracle": {
+        "cost_per_success": 6.955,
+        "mean_attempts": 1.0,
+        "mean_cost_per_task": 6.955,
+        "success_rate": 1.0,
+        "successes": 200,
+        "tasks": 200,
+        "total_cost": 1391.0
+      },
+      "seed": 0
+    },
+    "seed_42": {
+      "cost_ratio_max_to_low": 42.0,
+      "escalate": {
+        "cost_per_success": 12.415,
+        "mean_attempts": 2.11,
+        "mean_cost_per_task": 12.415,
+        "success_rate": 1.0,
+        "successes": 200,
+        "tasks": 200,
+        "total_cost": 2483.0
+      },
+      "fixed_low": {
+        "cost_per_success": 2.3529411764705883,
+        "mean_attempts": 1.0,
+        "mean_cost_per_task": 1.0,
+        "success_rate": 0.425,
+        "successes": 85,
+        "tasks": 200,
+        "total_cost": 200.0
+      },
+      "fixed_max": {
+        "cost_per_success": 50.29940119760479,
+        "mean_attempts": 1.0,
+        "mean_cost_per_task": 42.0,
+        "success_rate": 0.835,
+        "successes": 167,
+        "tasks": 200,
+        "total_cost": 8400.0
+      },
+      "oracle": {
+        "cost_per_success": 7.655,
+        "mean_attempts": 1.0,
+        "mean_cost_per_task": 7.655,
+        "success_rate": 1.0,
+        "successes": 200,
+        "tasks": 200,
+        "total_cost": 1531.0
+      },
+      "seed": 42
+    }
+  },
+  "runtime_seconds": 0.008,
+  "scenarios": {
+    "revision": {
+      "hidden": {
+        "mean_accuracy": 0.35833333333333334,
+        "per_seed": [
+          {
+            "accuracy": 0.425,
+            "correct": 17,
+            "n": 40,
+            "seed": 0,
+            "visible": false
+          },
+          {
+            "accuracy": 0.325,
+            "correct": 13,
+            "n": 40,
+            "seed": 1,
+            "visible": false
+          },
+          {
+            "accuracy": 0.325,
+            "correct": 13,
+            "n": 40,
+            "seed": 2,
+            "visible": false
+          }
+        ],
+        "runs": 3
+      },
+      "visible": {
+        "mean_accuracy": 1.0,
+        "per_seed": [
+          {
+            "accuracy": 1.0,
+            "correct": 40,
+            "n": 40,
+            "seed": 0,
+            "visible": true
+          },
+          {
+            "accuracy": 1.0,
+            "correct": 40,
+            "n": 40,
+            "seed": 1,
+            "visible": true
+          },
+          {
+            "accuracy": 1.0,
+            "correct": 40,
+            "n": 40,
+            "seed": 2,
+            "visible": true
+          }
+        ],
+        "runs": 3
+      }
+    },
+    "silent_revert": {
+      "mean_harness_score": 1.0,
+      "mean_stale_checker_score": 0.0,
+      "runs": 5
+    },
+    "team_bench": {
+      "blind": {
+        "mean_accepted": 5.0,
+        "mean_total_spent": 150.0,
+        "per_seed": [
+          {
+            "accepted": 5,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "blind",
+            "over_cap": true,
+            "rejected": 0,
+            "seed": 0,
+            "total_spent": 150.0,
+            "violations": [],
+            "workers": 5
+          },
+          {
+            "accepted": 5,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "blind",
+            "over_cap": true,
+            "rejected": 0,
+            "seed": 1,
+            "total_spent": 150.0,
+            "violations": [],
+            "workers": 5
+          },
+          {
+            "accepted": 5,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "blind",
+            "over_cap": true,
+            "rejected": 0,
+            "seed": 2,
+            "total_spent": 150.0,
+            "violations": [],
+            "workers": 5
+          },
+          {
+            "accepted": 5,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "blind",
+            "over_cap": true,
+            "rejected": 0,
+            "seed": 3,
+            "total_spent": 150.0,
+            "violations": [],
+            "workers": 5
+          },
+          {
+            "accepted": 5,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "blind",
+            "over_cap": true,
+            "rejected": 0,
+            "seed": 4,
+            "total_spent": 150.0,
+            "violations": [],
+            "workers": 5
+          }
+        ],
+        "runs": 5,
+        "violating_runs": 5
+      },
+      "enforce": {
+        "mean_accepted": 3.0,
+        "mean_total_spent": 90.0,
+        "per_seed": [
+          {
+            "accepted": 3,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "enforce",
+            "over_cap": false,
+            "rejected": 2,
+            "seed": 0,
+            "total_spent": 90.0,
+            "violations": [
+              "BUDGET_EXCEEDED",
+              "BUDGET_EXCEEDED"
+            ],
+            "workers": 5
+          },
+          {
+            "accepted": 3,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "enforce",
+            "over_cap": false,
+            "rejected": 2,
+            "seed": 1,
+            "total_spent": 90.0,
+            "violations": [
+              "BUDGET_EXCEEDED",
+              "BUDGET_EXCEEDED"
+            ],
+            "workers": 5
+          },
+          {
+            "accepted": 3,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "enforce",
+            "over_cap": false,
+            "rejected": 2,
+            "seed": 2,
+            "total_spent": 90.0,
+            "violations": [
+              "BUDGET_EXCEEDED",
+              "BUDGET_EXCEEDED"
+            ],
+            "workers": 5
+          },
+          {
+            "accepted": 3,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "enforce",
+            "over_cap": false,
+            "rejected": 2,
+            "seed": 3,
+            "total_spent": 90.0,
+            "violations": [
+              "BUDGET_EXCEEDED",
+              "BUDGET_EXCEEDED"
+            ],
+            "workers": 5
+          },
+          {
+            "accepted": 3,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "enforce",
+            "over_cap": false,
+            "rejected": 2,
+            "seed": 4,
+            "total_spent": 90.0,
+            "violations": [
+              "BUDGET_EXCEEDED",
+              "BUDGET_EXCEEDED"
+            ],
+            "workers": 5
+          }
+        ],
+        "runs": 5,
+        "violating_runs": 0
+      },
+      "visible": {
+        "mean_accepted": 5.0,
+        "mean_total_spent": 150.0,
+        "per_seed": [
+          {
+            "accepted": 5,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "visible",
+            "over_cap": true,
+            "rejected": 0,
+            "seed": 0,
+            "total_spent": 150.0,
+            "violations": [
+              "BUDGET_EXCEEDED",
+              "BUDGET_EXCEEDED"
+            ],
+            "workers": 5
+          },
+          {
+            "accepted": 5,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "visible",
+            "over_cap": true,
+            "rejected": 0,
+            "seed": 1,
+            "total_spent": 150.0,
+            "violations": [
+              "BUDGET_EXCEEDED",
+              "BUDGET_EXCEEDED"
+            ],
+            "workers": 5
+          },
+          {
+            "accepted": 5,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "visible",
+            "over_cap": true,
+            "rejected": 0,
+            "seed": 2,
+            "total_spent": 150.0,
+            "violations": [
+              "BUDGET_EXCEEDED",
+              "BUDGET_EXCEEDED"
+            ],
+            "workers": 5
+          },
+          {
+            "accepted": 5,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "visible",
+            "over_cap": true,
+            "rejected": 0,
+            "seed": 3,
+            "total_spent": 150.0,
+            "violations": [
+              "BUDGET_EXCEEDED",
+              "BUDGET_EXCEEDED"
+            ],
+            "workers": 5
+          },
+          {
+            "accepted": 5,
+            "cap": 100.0,
+            "each_spend": 30.0,
+            "mode": "visible",
+            "over_cap": true,
+            "rejected": 0,
+            "seed": 4,
+            "total_spent": 150.0,
+            "violations": [
+              "BUDGET_EXCEEDED",
+              "BUDGET_EXCEEDED"
+            ],
+            "workers": 5
+          }
+        ],
+        "runs": 5,
+        "violating_runs": 5
+      }
+    },
+    "unit_overlap": {
+      "agreeing_disagreements": 0,
+      "disagreeing_disagreements": 5,
+      "runs": 5
+    }
+  }
+}
